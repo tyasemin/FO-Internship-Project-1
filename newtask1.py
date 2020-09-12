@@ -36,8 +36,6 @@ def tensorize_masks(mask_path,output_shape):
         one_hot_encoded=OneHotEncoder().fit_transform(img2).toarray()
         batch_masks.append(one_hot_encoded)
     batch_mask_tensor=torch.Tensor(batch_masks)
-        
-    
     return batch_mask_tensor
 
 
