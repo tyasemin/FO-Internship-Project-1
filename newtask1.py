@@ -31,7 +31,7 @@ def tensorize_image(image_path, output_shape):
 def tensorize_masks(mask_path,output_shape):
     mask_names=[f1 for f1 in listdir(mask_path) if isfile(join(mask_path, f1))]
     for y in range(len(mask_names)):
-        img=cv2.cv2.imread(mask_path+"\\"+mask_names[y],cv2.cv2.IMREAD_UNCHANGED)
+        img=cv2.cv2.imread(mask_path+"\\"+mask_names[y],cv2.cv2.IMREAD_GRAYSCALE)
         img2=cv2.cv2.resize(img,(output_shape[0],output_shape[1]))
         one_hot_encoded=OneHotEncoder().fit_transform(img2).toarray()
         print(one_hot_encoded)
