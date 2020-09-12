@@ -2,8 +2,6 @@ import numpy as np
 import os
 from os import listdir
 from os.path import isfile,join
-import PIL
-from PIL import Image
 from numpy import asarray
 import torch
 from sklearn.preprocessing import OneHotEncoder
