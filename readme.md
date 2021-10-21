@@ -2,7 +2,7 @@
 
 ## Freespace Segmentation
 <br>
-Report :<a href="">[1]</a>
+Report :<a href="https://github.com/tyasemin/FO-Internship-Project-1/blob/master/Report.ipynb">[1]</a>
 <br>
 Freespace Segmentation Source Codes: <a href="https://github.com/tyasemin/FO-Internship-Project-1/tree/master/freespace">[2]</a>
 <br>
